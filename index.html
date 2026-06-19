@@ -1,30 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Semester 4</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+
+<!-- JAM DIGITAL -->
+<div class="clock-container">
+    <div id="clock"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">RIZAL</div>
+
+    <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#activity">Kegiatan</a></li>
+        <li><a href="#gallery">Dokumentasi</a></li>
+        <li><a href="#contact">Kontak</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
 <section class="hero">
 
-<div class="overlay"></div>
+    <div class="overlay"></div>
 
-<img src="assets/bg.jpg" class="hero-bg">
+    <div class="hero-content">
 
-<div class="hero-content">
+        <img src="profile.jpg" alt="Profile">
 
-<img src="assets/profile.jpg"
-class="profile">
+        <h1>Rizal Fadillah Gunawan</h1>
 
-<h1>Rizal Fadillah Gunawan</h1>
+        <p>
+            Mahasiswa Sistem Informasi Semester 4
+        </p>
+
+        <button onclick="scrollToAbout()">
+            Jelajahi Portofolio
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+
+<h2>Tentang Saya</h2>
+
+<div class="card">
 
 <p>
-Mahasiswa Sistem Informasi Semester 4
+Portofolio ini berisi berbagai kegiatan akademik,
+organisasi, seminar, proyek, dan dokumentasi yang
+saya ikuti selama semester 4.
 </p>
 
-<div class="btn-group">
+</div>
 
-<a href="#project">Project</a>
+</section>
 
-<a href="CV.pdf">
-Download CV
-</a>
+<!-- STATISTIK -->
+<section class="stats">
+
+<div class="stat-card">
+<h3>12+</h3>
+<p>Kegiatan</p>
+</div>
+
+<div class="stat-card">
+<h3>8+</h3>
+<p>Dokumentasi</p>
+</div>
+
+<div class="stat-card">
+<h3>4</h3>
+<p>Proyek</p>
+</div>
+
+</section>
+
+<!-- KEGIATAN -->
+<section id="activity">
+
+<h2>Kegiatan Semester 4</h2>
+
+<div class="activity-grid">
+
+<div class="activity-card">
+<h3>Seminar Teknologi</h3>
+<p>Mengikuti seminar perkembangan AI.</p>
+</div>
+
+<div class="activity-card">
+<h3>Kepanitiaan</h3>
+<p>Menjadi anggota divisi dokumentasi.</p>
+</div>
+
+<div class="activity-card">
+<h3>Project Kuliah</h3>
+<p>Mengembangkan website akademik.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- DOKUMENTASI -->
+<section id="gallery">
+
+<h2>Dokumentasi</h2>
+
+<div class="gallery-grid">
+
+<div class="gallery-card">
+<img src="foto1.jpg">
+
+<div class="caption">
+<h4>Seminar Nasional</h4>
+<p>Peserta aktif dan sesi diskusi.</p>
+</div>
+
+</div>
+
+<div class="gallery-card">
+<img src="foto2.jpg">
+
+<div class="caption">
+<h4>Panitia Acara</h4>
+<p>Bertugas sebagai dokumentasi.</p>
+</div>
+
+</div>
+
+<div class="gallery-card">
+<video controls>
+<source src="video1.mp4">
+</video>
+
+<div class="caption">
+<h4>Presentasi Proyek</h4>
+<p>Menjelaskan hasil pengembangan sistem.</p>
+</div>
 
 </div>
 
 </div>
 
 </section>
+
+<!-- TIMELINE -->
+<section class="timeline">
+
+<h2>Timeline Semester</h2>
+
+<div class="timeline-item">
+<span>Februari</span>
+<p>Seminar Teknologi Informasi</p>
+</div>
+
+<div class="timeline-item">
+<span>Maret</span>
+<p>Kepanitiaan Kampus</p>
+</div>
+
+<div class="timeline-item">
+<span>April</span>
+<p>Project Sistem Informasi</p>
+</div>
+
+</section>
+
+<!-- KONTAK -->
+<section id="contact">
+
+<h2>Kontak</h2>
+
+<div class="card">
+
+<p>Email : rfdllh291105@gmail.com</p>
+
+<p>Instagram : @username</p>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
