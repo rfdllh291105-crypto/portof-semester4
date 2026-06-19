@@ -172,3 +172,11 @@ width:130px;
 height:130px;
 }
 }
+.activity-card.show,
+.gallery-card.show {
+
+    box-shadow:
+    0 0 15px rgba(56,189,248,.2),
+    0 0 30px rgba(56,189,248,.1);
+
+}
